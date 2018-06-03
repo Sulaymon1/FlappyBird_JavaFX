@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ru.itis.game.ModalController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Accordion layoutX="119.0" layoutY="95.0" />
+        <AnchorPane layoutX="115.0" layoutY="62.0" prefHeight="277.0" prefWidth="371.0">
+            <children>
+                <Button layoutX="160.0" fx:id="submit" onAction="#submitBtn" layoutY="155.0" mnemonicParsing="false" text="Submit" />
+                <Label layoutX="135.0" layoutY="49.0" text="Enter username" textFill="#2c10e1">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="textField" layoutX="112.0" layoutY="99.0" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
